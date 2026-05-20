@@ -119,7 +119,7 @@ namespace RpgApi.Controllers
 
             string msg = string.Format("N° Sorteado {0}. Personagem: {1}",Sorteio,p.Nome);
 
-            return Ok(msg)
+            return Ok(msg);
         }
 
 
